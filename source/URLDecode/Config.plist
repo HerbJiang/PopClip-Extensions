@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>Minus-Percent.png</string>
+			<key>Script Interpreter</key>
+			<string>/bin/bash</string>
+			<key>Shell Script File</key>
+			<string>urldecode.sh</string>
+			<key>Title</key>
+			<string>URL Decode</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+            <string>http://github.com/HerbJiang</string>
+			<key>Name</key>
+			<string>Herb Jiang</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>URL deocde the selected text.</string>
+	<key>Extension Identifier</key>
+	<string>net.1jmy.popclip.extension.urldecode</string>
+	<key>Extension Name</key>
+	<string>URL Decode</string>
+	<key>Required Apps</key>
+	<integer>701</integer>
+</dict>
+</plist>
